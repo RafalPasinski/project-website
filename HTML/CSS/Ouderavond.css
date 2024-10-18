@@ -1,0 +1,193 @@
+/*Google Fonts: Open Sans, Oleo Script*/
+
+/*Open Sans: CSS class for a variable style
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+Oleo Script: CSS classes
+
+.oleo-script-regular {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oleo-script-bold {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+*/
+
+
+body {
+    font-family: "Open Sans", system-ui;
+}
+
+body h1 {
+  color: #E9EFEC;
+  font-family: "Oleo Script", system-ui;
+}
+
+nav {
+    display: inline-block;
+    background-color: #16423C;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+
+  }
+
+.img_header {
+    width: 60px;
+    height: 60px;
+}
+
+
+ul {
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    max-height: 55%;
+    
+  }
+
+li {
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav_button {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    max-width: 150px;
+    min-width: 150px;
+    background-color: #6A9C89;
+    color: #E9EFEC;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    align-items: center;
+    border: solid #6A9C89;
+    border-radius: 10px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+#ho {
+    border: solid white;
+    border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+footer {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #6A9C89;
+    text-align: center;
+    font-size: 12px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#p1 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#p2 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#section1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  background-image: url(./IMG/janligthartstraat250.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background-color: #C4DAD2;
+  margin-top: 125px;
+  text-align: center;
+
+}
+
+#section2 {
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #C4DAD2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-align: center;
+}
+
+#article2 {
+  margin-right: 100px;
+  margin-left: 150px;
+  margin-bottom: 120px;
+}
+
+#article3 {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+#tekstinfo1 {
+  text-align: left;
+  font-size: 20px;
+  margin-right: 200px;
+  background-color: white;
+  box-shadow: inset 0px 0px 10px 1px black;
+  padding: 10px;
+}
+
+#titelarticle {
+  font-size: 35px;
+}
+
+#ouderavond1 {
+    width: 200%;
+    height: 200%;
+}

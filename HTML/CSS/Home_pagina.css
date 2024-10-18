@@ -1,0 +1,351 @@
+/*Google Fonts: Open Sans, Oleo Script*/
+
+
+/*Open Sans: CSS class for a variable style
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+Oleo Script: CSS classes
+
+.oleo-script-regular {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oleo-script-bold {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+*/
+
+* {
+    font-family: "Open Sans", system-ui;
+    margin: 0px;
+}
+
+
+body {
+    font-family: "Open Sans", system-ui;
+}
+
+#titlesite {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 5px 5px 5px black;
+}
+
+body h1 {
+    color: #E9EFEC;
+    font-family: "Oleo Script", system-ui;
+}
+
+nav {
+    background-color: #16423C;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 30px 10px rgb(37, 37, 37);
+}
+
+.nav_title, .nav_img {
+    padding-right: 80px;
+}
+
+.img_header {
+    width: 60px;
+    height: 60px;
+}
+
+ul {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    max-height: 55%;
+    margin: 0px;
+}
+
+
+.nav_button {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    max-width: 150px;
+    min-width: 150px;
+    background-color: #6A9C89;
+    color: #E9EFEC;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+    align-items: center;
+    border: solid #6A9C89;
+    border-radius: 20px;
+    margin-right: 12.5px;
+    margin-left: 12.5px;
+    font-weight: bold;
+}
+
+#ho {
+    border: solid white;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    background-color: #6A9C89;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#p1 {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#p2 {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#section1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./IMG/janligthartstraat250.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: #C4DAD2;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 0px 0px 30px 10px rgb(75, 75, 75);
+}
+
+#section2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #C4DAD2;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 50px;
+    text-align: center;
+    box-shadow: 0px 30px 30px 10px rgb(75, 75, 75);
+    min-height: 95vh;
+}
+
+
+
+
+#article2 {
+    margin : 100px;
+}
+
+#article3 {
+    margin : 100px;
+    padding-top: 63px;
+}
+
+#tekstinfo1 {
+    text-align: left;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: inset 0px 0px 10px 1px black;
+    padding: 10px;
+}
+
+#titelarticle {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-family: "Oleo Script", system-ui;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 5px 5px 5px black;
+}
+
+iframe {
+    box-shadow: 0px 0px 30px 10px rgb(75, 75, 75);
+}
+
+
+main, nav {
+    display: flex;
+    flex-direction: column;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    max-width: 150px;
+    min-width: 150px;
+    background-color: #6A9C89;
+    color: #E9EFEC;
+    padding: 10px;
+    font-size: 14px;
+    align-items: center;
+    border: solid #6A9C89;
+    border-radius: 20px;
+    margin-right: 12.5px;
+    margin-left: 12.5px;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    color: #6A9C89;
+    display: none;
+    position: absolute;
+    min-width: 192px;
+    z-index: 1;
+    background-color: #16423C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    max-width: 150px;
+    min-width: 150px;
+    background-color: #6A9C89;
+    color: #E9EFEC;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    border: solid #6A9C89;
+    border-radius: 20px;
+    margin-right: 12.5px;
+    margin-left: 12.5px;
+    font-weight: bold;
+}
+
+/*
+.dropdown-content a:hover {
+    background-color: #E9E9E9;
+    color: #6A9C89;
+}
+*/
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #E9EFEC;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    #section1 {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px; 
+    }
+
+    #section2 {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #article2 {
+        margin: 40px;
+    }
+
+    #article3 {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    ul {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    li {
+        margin: 5px;
+
+    }
+
+    .nav_button {
+        margin: 5px;
+    }
+
+    nav {
+        width: fit-content;
+        height: fit-content;
+        justify-content: space-around;
+        border-bottom-right-radius: 20px;
+        padding-bottom: 10px;
+    }
+
+    .nav_img {
+        padding: 0px;
+    }
+
+    .nav_title {
+        padding: 0px;
+    }
+    
+    .dropdown-content {
+        position: relative;
+        margin-top: 10px;
+
+        padding: 0px;
+
+
+    }
+}
